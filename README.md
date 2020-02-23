@@ -12,7 +12,11 @@ This data set contains the following features:
 Not getting much into the medical terminologies, here we really just deal with all these columns as numbers and the Kyphosis as essentially a target *absent* or *present*.
 
 Exploratory Data Analysis visually using **seaborn** by plotting all the variables against each other using pairplot with value colors defined by the column *'Kyphosis'* to check the impact on it with each changing parameter.Scikit learn also has some built-in visualization capabilities for decision trees. The decision tree is visualised using the ```pydotplus``` library and ```export_graphviz``` module which is processed with [graphviz](http://graphviz.org/) .These have to be installed as:
-  ``` pip install pydotplus
+  ```  
+      pip install pydotplus
+  ```
+  
+  ```
       conda install -c anaconda graphviz
   ```
 
